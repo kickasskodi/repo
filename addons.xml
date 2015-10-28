@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.kickasskodi" name="KickAssKodi Wizard" version="1.0.0" provider-name="KickAssKodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KickAssKodi Wizard</summary>
+    <description lang="en">The most kick ass Kodi build... ever!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+    <addon id="repository.kickasskodi" name="KickAssKodi" version="1.0.0" provider-name="KickAssKodi">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="KickAssKodi">
+            <info compressed="false">http://raw.githubusercontent.com/kickasskodi/repo/addons.xml</info>
+            <checksum>http://raw.githubusercontent.com/kickasskodi/repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://raw.githubusercontent.com/kickasskodi/repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The most Kick Ass Kodi repo ever!</summary>
+            <description></description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
