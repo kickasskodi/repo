@@ -1,5 +1,5 @@
 ﻿name="Amazon Fire TV"
 url="https://cdn.rawgit.com/kickasskodi/plugin/master/plugin.program.kickasskodi-1.0.0.zip"
-img="https://archive.org/download/firetv-icon/firetv-icon.png"
+img="https://cdn.rawgit.com/kickasskodi/plugin/master/firetv-icon.png"
 fanart="https://archive.org/download/SilenceROM_XLII/SilenceromBanner.gif"
 description="Install KickAssKodi - Amazon Fire TV Build"
